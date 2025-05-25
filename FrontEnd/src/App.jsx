@@ -1,10 +1,10 @@
 import './App.css'
-
+import Button from './component/common/Button'
 function App() {
 
   return (
     <>
-    hello world
+    <Button onClick={"hello"} >Hello</Button>
     </>
   )
 }
